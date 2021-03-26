@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--Case insensintive/Não faz diferença minusculo ou maiusculo; Começo de qualquer HTML-->
+
+<html Lang="pt-BR">
+<!--Tag Raiz, as outras Tags são filhas dela-->
+
+<head>
+    <!--Define os Metadados do Documento HTML/Tag Principal-->
+    <meta charset="UTF-8" />
+    <!--Define a codificação de caracteres utilizado no Documento-->
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <!--Tag meta não possui corpo-->
+
+    <title>Meu HTML</title>
+    <!--Tag obrigatória de qualquer documento HTML/título do documento-->
+
+
+    <style>
+        h1 {
+            background: red;
+        }
+
+        .bold {
+            background: yellow;
+        }
+        .vermelho{
+            font-size:40px;
+            color: red;
+        }
+    </style>
+    <!--Parte do CSS-->
+
+</head>
+
+<body>
+    <!--Tudo que a gente vê/Contéudo da página/Tag Principal-->
+    <h1 style id="cabecalho-1" class="fundo-vermelho borda-esquerda">
+
+       
+        <!--Classe pode se repetir, porém o ID não-->
+        <!--A classe pode ser repetida e pode ter mais de uma classe no mesmo elemento-->
+        <!--Programação orientado a objeto-->
+        <!--class=Identificador de elementos-->
+        Meu HTML
+
+    </h1>
+    <ul>
+        <li>Pagina inicial</li>
+            <ol>Pagina 1</ol>
+            <ol>Pagina 2</ol>
+            <ol>Pagina 3</ol>
+        <li>Introdução</li>
+        <li>Fim da Página</li>
+    </ul>
+
+
+    <p> <q
+            cite=https://www.patasdacasa.com.br/noticia/curiosidades-sobre-cachorros-40-coisas-que-voce-ainda-nao-sabe-sobre-os-caninos_a658/1>Os
+            cachorros são animais</q>muito presentes em nossas vidas. Por terem altas doses de companheirismo, alegria e
+        confiança, os cães são considerados os melhores amigos do homem e membros das famílias por onde passam.<br>
+        Por isso, se você já teve um amigo peludo em sua vida, certamente acredita saber tudo sobre o universo canino.
+        <!--q serve como citação-->
+
+    <blockquote>Bloco de citação</blockquote>
+    </p>
+    <!--Não pode fechar por fora, não possui tag filha-->
+    <!--Identificador/Cabeçalho-->
+
+    <h2 id="cabecalho-2" class="fundo-vermelho"></h2>
+
+    <p1>
+        <!--Paragrafo/Texto do documento-->
+        <del>Em linguística</del>, <ins>a noção de texto é ampla</ins> e ainda aberta a uma definição mais precisa.
+        <s>Grosso modo</s>Grosso, <u>pode ser</u>
+        entendido como manifestação <small>linguística das ideias de um autor</small>, que serão interpretadas pelo
+        leitor de
+        acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável.
+    </p1>
+
+    <p>
+
+        <a href="http://127.0.0.1:5500/HTML/teste.html" target='_blank'>Texto</a>
+        <img src="https://i1.wp.com/www.clubeparacachorros.com.br/wp-content/uploads/2014/07/labrador-amarelo.jpg?resize=640%2C425&ssl=1"
+            alt="Labrador Amarelo" width="100px" />
+        <!--Coloca uma referencia com uma URL-->
+
+        <b>Um texto é uma ocorrência linguística</b>, <i>iescrita ou falada de qualquer extensão</i>, dotada de unidade
+        sociocomunicativa,
+        <!--i é Italico-->
+        semântica e formal. <strong>É uma unidade de linguagem em uso</strong> 2^<sup>2</sup> H<sub>2</sub>O
+        <!--Sup para subir, sub para descer-->
+        <!--Strong e b transforma o texto em Negrito-->
+    </p>
+
+    <h3>Texto
+
+    </h3>
+
+    <p>
+        Afinal, <span class="vermelho">é comum fazer uma breve pesquisa antes</span> receber o novo integrante da casa.<hr> Mas a verdade é que os
+        cachorros não cansam de nos surpreender todos os dias, e fazer com que aprendamos cada vez mais sobre suas particularidades
+<pre><code>
+int main()
+{
+int num1, num2, soma, subtracao, multi, div;
+            
+printf("Calculadora 1.0\n");
+printf("Entre os 2 numeros a serem processados: ");
+scanf("%i%i", &num1, &num2);
+            
+soma            = num1 + num2;
+subtracao       = num1 - num2;
+multi           = num1 * num2;
+div             = num1 / num2;
+            
+printf( "A soma e: %i\n", soma );
+printf( "A subtracao e: %i\n", subtracao );
+printf( "O produto e: %i \n", multi );
+printf( "A divisão e: %i \n", div );
+            
+return 0;
+}</code></pre>
+
+    </p>
+
+    <span>Teste</span><br>
+    <!--span é uma tag de semantica-->
+    <!--<br> serve de quebra de linha-->
+    <span>Teste</span>
+    <span>Teste</span>
+    <span>Teste</span>
+    <span>Teste</span><br>
+
+</body>
+
+</html>

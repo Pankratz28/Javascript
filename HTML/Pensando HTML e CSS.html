@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <title>Pensando HTML e CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-size: cover;
+            background-position: top center;
+            background-image: url(https://images-ext-2.discordapp.net/external/KxazJ8F4DBsZZVY6FtCqQgxEOsHxwdKgig0TwV3tztI/https/assets.nflxext.com/ffe/siteui/vlv3/92bb3a0b-7e91-40a0-b27b-f2c3ac9ef6e4/b21e3ad9-aa05-4122-b6a8-977eb91d5657/BR-pt-20210322-popsignuptwoweeks-perspective_alpha_website_small.jpg?width=806&height=453);
+        }
+
+        #heading {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        #heading div {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+
+        #heading .heading {
+            padding: 15px 0;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        #heading .h1 {
+            padding: 15px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        #heading a {
+            color: red;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+    </style>
+    <!--Justify-content-->
+    <!--* significa tudo no CSS-->
+    <!--A cor do Texto do cabeçalho está no "a" e não no "h1"-->
+    <!--"h1" é o Texto e "a" é a referencia do texto-->
+
+</head>
+
+<body>
+    <header id="heading">
+        <div>
+            <h1 class="h1">
+                <a href="#">Netflix</a>
+                <!--Seta uma referencia/# Seta uma ID-->
+            </h1>
+
+            <h2 class="h1">
+                <a href="#">Entrar</a>
+            </h2>
+        </div>
+    </header>
+</body>
+
+</html>
